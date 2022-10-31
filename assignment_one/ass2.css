@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'GraphikRegular';
+    src: url('/font/GraphikRegular.otf');
+}
+img{
+    float: left;
+        padding-right: 100px;
+}
+body{
+    background-color: #181818;
+    color: white;
+    font-family: 'GraphikRegular';
+    src: url('/font/GraphikRegular.otf');
+}
+.head{
+    
+padding-left: 140px;
+word-spacing: 80px;
+
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+    font-size: xxx-large;
+}
+.content{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size:large ;
+}
+.button{
+    text-align: center;
+    word-spacing: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+#b1{
+    background-color:blue; 
+        border: none;
+        color: white;
+        padding: 15px 40px;
+        text-align: center;
+    
+        font-size: 16px;
+}
+
+#b2{
+    background-color: #181818;color:white;
+        border: solid ;
+        padding: 15px 40px;
+}
+#b3{
+    background-color: #181818;color:white;
+        border: solid ;
+        margin-left: 40px;
+        padding: 10px 32px;
+}
