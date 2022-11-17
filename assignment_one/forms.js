@@ -88,7 +88,7 @@ function validateForm() {
     printError("genderErr", "");
     genderErr = false;
   }
-
+console.log(name)
   // Prevent the form from being submitted if there are any errors
   if ((nameErr || emailErr || mobileErr || countryErr || genderErr) == true) {
     

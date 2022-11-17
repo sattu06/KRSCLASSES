@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}.nav{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 30px;
+}
+
+
+.list{
+   width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.btnn1{
+    background-color: green;
+
+}
+.btnn2{
+    background-color:red;
+}
+.btnn1,.btnn2{
+    color: white;
+    padding: 14px 20px;
+    font-size: large;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 500px;
+}
+.login-box{
+    border: 2px solid ;
+    background-color: rgba(170,182,198,0.5);
+    width: 350px;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+}
+.login-box h1{
+    text-align: center;
+}
+.user-box{
+    font-size: large;
+}
+
+.form-input{
+   
+    background: transparent;
+    border: none;
+
+    border-bottom: 1px solid rgba(82 ,82 ,185,0.3) ;
+    width: 100%;
+    padding: 10px 5px;
+
+}
+.btn3{
+    background-color: rgba(115,143,196,0.5);
+    padding: 6px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.contact-link{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}

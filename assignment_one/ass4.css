@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}.nav{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 30px;
+}
+.error{
+    color: red;
+}
+
+.list{
+   width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.btnn1{
+    background-color: green;
+
+}
+.btnn2{
+    background-color:red;
+}
+.btnn1,.btnn2{
+    color: white;
+    padding: 14px 20px;
+    font-size: large;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.register{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    
+    
+   
+}
+.register-box{
+    border: 2px solid ;
+    background-color: rgba(170,182,198,0.5);
+    width: 51%;
+    height: fit-content;
+    padding:  40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+    margin: 20px 0px;
+}
+
+.register-box h2{
+    margin-top: 30px;
+    margin: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    
+
+
+}
+.label{
+    font-size: large;
+    font-weight: bold;
+}
+.inline{
+    padding: 0px 50px; 
+    padding-top: 30px;
+  
+}
+.inline2{
+    padding: 0px 40px; 
+    
+  
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.contact-link{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}

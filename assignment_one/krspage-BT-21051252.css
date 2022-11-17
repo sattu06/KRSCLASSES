@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 30px;
+}
+.list{
+   width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.btnn1{
+    background-color: green;
+
+}
+.btnn2{
+    background-color:red;
+}
+.btnn1,.btnn2{
+    color: white;
+    padding: 14px 20px;
+    font-size: large;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.container{
+border: red solid;
+    height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.podcast{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    
+}
+.heading1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.para{
+    width: 650px;
+    text-align: center;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.btn{
+    font-size: 16px;
+   border-radius: 5px;
+   padding: 10px 24px;
+
+
+
+}
+.btn1{
+    background-color: blue;
+border: none;}
